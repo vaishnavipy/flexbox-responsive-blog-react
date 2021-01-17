@@ -14,8 +14,8 @@ function App() {
 
       <Switch>
         <Route exact path="/"><Home /></Route>
-        <Route exact path="/"><AboutMe /></Route>
-        <Route exact path="/"><Recent /></Route>
+        <Route exact path="/about"><AboutMe /></Route>
+        <Route exact path="/recent"><Recent /></Route>
       </Switch>
 
       <Footer />

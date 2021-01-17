@@ -22,7 +22,7 @@ padding: 2em;
   display: flex;
   justify-content: space-between;
 }
-.logo h1,p{
+.logo h1,.logo p{
   margin: 0;
   text-align: center;
   
@@ -68,6 +68,146 @@ li:hover{
   color: #717171;
 }
 
+
+
+/*----------HOME----------*/
+
+.main-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  
+}
+.col-left{
+  width:68%;
+  
+ 
+}
+
+
+.featured-img{
+  width:100%;
+}
+.featured-img img{
+  max-width: 100%;
+  object-fit: contain;
+}
+.comments{
+  margin: 2em 0;
+  font-size: 0.8rem;
+}
+.article-title{
+  color:#153874;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+a{
+  color: #1792D2;
+}
+.article-read-more{
+  color:#1792D2;
+  font-weight: 900;
+  margin: 2em 0;
+  text-decoration: none;
+}
+.article-content{
+  margin:1em 0;
+}
+.article-read-more:hover{
+
+  border-bottom: 1px solid #153874;
+  color:#153874;
+}
+hr{
+  margin:1em 0;
+}
+.article{
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 2em 0;
+}
+.article-col1{
+  width: 29%;
+  height: 140%;
+ 
+}
+
+.article-col2{
+  width: 69%;
+ 
+}
+.article-img{
+  width: 100%;
+ 
+ 
+}
+.article-img img{
+  max-width: 100%;
+ object-fit: cover;
+  min-height: 250px;
+}
+
+.col-right{
+  width: 28%;
+  display:flex;
+ flex-direction: column;
+  
+}
+
+.right-col{
+  background-color: #EFEFEF;
+  
+  padding: 1.2em;
+  margin-bottom: 1em ;
+}
+.right-col-container{
+background-color: white;
+padding: 1em ; 
+ display: flex;
+ flex-direction: column;
+margin:0;
+}
+.right-col-title{
+  
+  margin-bottom:1em;
+  color:#143774;
+  text-transform: uppercase;
+}
+
+.right-col-container img{
+  object-fit: cover;
+  max-width: 100%;
+}
+.right-col-article-title{
+  color:#143774;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.about-img{
+ 
+  background-color: red;
+
+}
+.about-img img{
+  max-height: 10%;
+  object-fit: fill;
+}
+.about-me-h1{
+  color:#143774;
+  font-weight: 400;
+}
+.about-me-h2{
+  color: #1792D2;
+  font-weight: 400;
+}
+
+
+
+
+
 @media (max-width:800px){
   .container-nav{
     flex-direction: column;
@@ -82,5 +222,29 @@ li:hover{
     text-align: center;
   }
 
+  .main-container{
+    flex-direction: column;
+  }
+
+  .col-left{
+    width:95%;
+   
+  }
+  .col-right{
+    width:95%;
+  }
+  .article{
+    flex-direction: column;
+  }
+
+  .article-col1{
+    width: 100%;
+  }
+  .article-col2{
+    width: 100%;
+  }
+
+
 
 }
+
