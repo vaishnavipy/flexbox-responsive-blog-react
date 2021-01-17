@@ -186,11 +186,7 @@ margin:0;
   padding: 0;
   font-weight: 500;
 }
-.about-img{
- 
-  background-color: red;
 
-}
 .about-img img{
   max-height: 10%;
   object-fit: fill;
